@@ -15,7 +15,7 @@ function Footer() {
                     <img src="images/fb-footer.png" alt="" />
                 </a>
             </div>
-            <p>Copyright @Debjit Adhikari ©2020 All rights reserved </p>
+            <p>Copyright @Debjit Adhikari ©2024 All rights reserved </p>
         </div>
     )
 }
