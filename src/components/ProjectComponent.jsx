@@ -12,7 +12,7 @@ function ProjectComponent({theProject}) {
                     <div className="space-y-2  lg:w-[600px]">
                         <h1 className="text-[30px] font-bold">{theProject.name}</h1>
                         <div className="flex gap-2">
-                            <div className="bg-blue-950 text-white py-1 px-2 rounded-full">2024</div>
+                            <div className="bg-blue-950 text-white py-1 px-2 rounded-full">{theProject.year}</div>
                             <a href={theProject.websiteLink} className="text-blue-700 text-lg hover:underline">Visit website &#8599;</a>
                         </div>
                         <p>{theProject.description}
