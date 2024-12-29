@@ -10,10 +10,10 @@ function NavBar() {
             {/* logo */}
             <h1 className="lg:text-[24px] z-30 text-[20px]  rounded-xl hover:cursor-pointer font-bold flex gap-0 "> 
                 {"<>"}
-                <img src="images/fire-flame.gif" className="w-[30px] h-[30px]" alt="fire" />
+{/*                 <img src="images/fire-flame.gif" className="w-[30px] h-[30px]" alt="fire" /> */}
                 {/* <img src="images/blue-fire.gif" className="w-[30px] h-[40px]" alt="fire" /> */}
                 {"DEBJIT"} 
-                <img src="images/fire-flame.gif" className="w-[30px] h-[30px]" alt="fire" />
+{/*                 <img src="images/fire-flame.gif" className="w-[30px] h-[30px]" alt="fire" /> */}
                 {"</>"}
             </h1>
             {/* contents */}
