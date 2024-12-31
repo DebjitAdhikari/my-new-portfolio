@@ -71,7 +71,7 @@ function Contact() {
             <SectionHeading text="Contact Me"></SectionHeading>
             <div className=" mt-7 max-w-[600px] text-left mx-auto
             gap-3  min-h-[400px] flex flex-col">
-                <h1 className="text-[32px] text-center">{`Let's connect`}</h1>
+                <h1 className="text-[32px] text-center">{`Let's Connect`}</h1>
                 <p >{customMessage}</p>
                 <input value={name}  onChange={ev=>{setName(ev.target.value)}} className="bg-[#D9D9D9] h-[60px] placeholder:text-lg placeholder-[#5a5d7a] rounded-lg px-2" placeholder="Name" type="text" />
                 {!name && <p className="text-red-600 text-sm self-start">Name is required</p>}
