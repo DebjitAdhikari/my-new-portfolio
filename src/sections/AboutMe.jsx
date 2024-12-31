@@ -8,9 +8,9 @@ function AboutMe() {
             {/* contents */}
             <div className="flex lg:flex-row flex-col-reverse  gap-5 mt-4 justify-between">
                 {/* left */}
-                <div className=" max-w-[500px] flex flex-col justify-between gap-5 ">
+               <div className=" max-w-[500px]  flex flex-col justify-center gap-5 ">
                     {/* about */}
-                    <p className="text-base whitespace-pre-line  lg:text-xl ">
+                    <p className="text-base whitespace-pre-line lg:text-[19px] leading-relaxed ">
                         {/* description */}
                         {`Hi, I'm Debjit Adhikari! 👋
                         I’m a passionate web developer from West Bengal, India. Currently exploring backend development. I specialize in creating scalable, user-friendly web applications using the MERN stack.
@@ -21,8 +21,8 @@ function AboutMe() {
                 </div>
 
                 {/* right */}
-                <div className="w-[220px] h-[260px] sm:min-w-[320px] sm:w-[290px] sm:min-h-[350px]">
-                    <img src="images/laptop.jpg" className="w-full h-full rounded-xl"></img>
+                <div className="w-[220px]  rounded-lg   h-[260px] sm:min-w-[320px] sm:w-[290px] sm:min-h-[350px]">
+                    <img src="images/coding-gif.gif" className="w-full h-full rounded-lg"></img>
                 </div>
             </div>
             {/* skills */}
