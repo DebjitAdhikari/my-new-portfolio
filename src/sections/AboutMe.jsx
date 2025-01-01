@@ -21,8 +21,8 @@ function AboutMe() {
                 </div>
 
                 {/* right */}
-                <div className="max-w-[250px]  rounded-lg   h-[200px] sm:min-w-[320px] sm:w-[290px] sm:min-h-[350px]">
-                    <img src="images/coding-white.gif" className="w-full h-full rounded-lg"></img>
+                <div className="max-w-[250px]  rounded-lg   h-[200px] sm:min-w-[380px]  sm:min-h-[300px]">
+                    <img src="images/coding-guy.gif" className="w-full h-full rounded-lg"></img>
                 </div>
             </div>
             {/* skills */}
