@@ -6,7 +6,7 @@ function HomeButtons() {
     }
     function createDownload(){
         const link = document.createElement("a")
-        link.href="/documents/Debjit'sResume.pdf"
+        link.href="/documents/MyResume.pdf"
         link.download = "Debjit'sResume.pdf"
         link.click()
     }
